@@ -127,7 +127,7 @@ A FUZZ++ statement is one of the following:
 - a function declaration
 - an assignment statement (such as `a = b`, where `a` and `b` are both previously declared variables)
 - a function call
-- a `chill` statement (must appear in a loop and tells the program to chill out with that loop, break out of it, and move on to the code after the loop)
+- a `heat` statement (must appear in a loop and tells the program to warm up and rise out of that loop, break out of it, and move on to the code after the loop)
 - a `returnt` statement (returns a value from a function; it is an error if `returnt` appears somewhere other than in a function body)
 - an `iph`, `iph elz`, or `elz` statement
 - a `print` statement
