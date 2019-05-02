@@ -1,0 +1,11 @@
+Program {
+    [ FunctionDeclaration {
+        id: 'thermostat',
+        params: [ Parameter { id: 'temperature', type: 'num' } ],
+        body: [ IphStatement {
+                    tests: [ BinaryExpression {
+                                op: '<',
+                                left: IdentifierExpression { id: 'temperature' },
+                                right: NumericLiteral { value: 67 }}],
+                    consequents: [ ReturntStatement { returnValue: not_cozy }],
+                    alternate: [ ReturntStatement { returnValue: cozy }]}]}]}
