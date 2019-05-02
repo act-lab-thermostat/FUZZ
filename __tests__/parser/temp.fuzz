@@ -1,0 +1,6 @@
+function thermostat(num temperature) 
+    iph (temperature < 67) ~
+        returnt not_cozy;
+    ~ elz 
+        returnt cozy;
+~
